@@ -1,32 +1,29 @@
 # Airline-Tweet-Sentiment-Analysis
-A comprehensive analysis of public airline sentiment based on the 'Twitter US Airline Sentiment' dataset that is available in Kaggle. The project involves four critical stages: tweet preprocessing, sentiment labeling, feature extraction, and sentiment classification.
+A comprehensive analysis of public airline sentiment based on the 'Twitter US Airline Sentiment' dataset that is available in Kaggle, the project involves four critical stages: tweet preprocessing, sentiment labeling, feature extraction, and sentiment classification.
 
 # Install Necessary Libraries
-!pip install some-library-name another-library-name
+!pip install emoji
 
 # Dataset:
-This project uses the "Twitter US Airline Sentiment" dataset available on Kaggle. The dataset provides a collection of tweets with sentiments about different US airlines.
+This project uses the "Twitter US Airline Sentiment" dataset available on Kaggle. The dataset provides a collection of tweets with sentiments about different US airlines. The tweets contain information about the sentiment (positive, neutral, or negative) of six US airlines.
 
-Link: Twitter US Airline Sentiment on Kaggle
+Link: [Twitter US Airline Sentiment on Kaggle](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment/data)
 
 # Methodology
-Our sentiment analysis project on English-language tweets underwent a structured approach divided into the following key phases:
+The sentiment analysis project was structured according to the following key phases:
 
-## 1. Preprocessing:
+## 1. Labeling:
+Although the dataset was originally annotated with sentiment labels, we decided to follow our own labeling for a more comprehensive analysis. Labeling was performed using TextBlob Data Labeling.
+
+## 2. Preprocessing:
+* Handling URLs and usernames: Remove any URLs and Twitter usernames from the tweets so that they are generalized and free of specific references
+* Lowercasing: To ensure uniformity, all text has been converted to lowercase.
 * Tokenization: Break down the tweets into individual words or tokens. This step helps simplify the text and prepares it for further processing.
-* Lowercasing: Converted all text to lowercase to ensure uniformity and to treat words like "Hello" and "hello" as the same.
 * Stopword Removal: Remove common words (like "and", "is", and "the") that do not add significant meaning in sentiment analysis.
-* Handling URLs and Usernames: Stripping off any URLs and Twitter usernames to ensure the tweets are generalized and devoid of specific references
-* Stemming/Lemmatization: Reduced words to their root form. For example, "running" becomes "run". This helps in consolidating the text and treating words with similar meanings.
-
-## 2. Labeling:
-Although the dataset originally came annotated with sentiment labels, we decided to chart our path for a more comprehensive analysis. The labeling process involved:
-(Elaborate on how you labeled or if you used any automated tools or manual methods.)
+* Lemmatization: Reduced words to their root form. For example, "running" becomes "run". This helps in consolidating the text and treating words with similar meanings.
 
 ## 3. Feature Extraction:
-Vectorization: Converted the preprocessed text into numerical data for machine learning models using methods such as TF-IDF (Term Frequency-Inverse Document Frequency) or Count Vectorization.
-
-Feature Selection: From the vectorized data, important features that heavily impact sentiment were chosen. This streamlines the data fed into the classifier, improving efficiency and accuracy.
+Feature extraction was used to vectorize data by converting preprocessed text into numerical data using TF-IDF.
 
 ## 4. Classification:
 Model Selection: Choose suitable classification models for sentiment analysis. For instance, logistic regression, SVM, or neural networks
