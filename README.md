@@ -27,6 +27,8 @@ For sentiment analysis, many classification models were used, including Nave Bas
 ## Results:
 Share some insights, metrics, or findings from the analysis. This can be in terms of graphs, tables, or text.
 
+<img src="./images/Pie_Chart.png">
+
 ## Technologies Used:
 List the languages, libraries, and tools used in the project.
 
