@@ -16,11 +16,7 @@ The sentiment analysis project was structured according to the following key pha
 Although the dataset was originally annotated with sentiment labels, we decided to follow our own labeling for a more comprehensive analysis. Labeling was performed using TextBlob Data Labeling.
 
 ## 2. Preprocessing:
-* Handling URLs and usernames: Remove any URLs and Twitter usernames from the tweets so that they are generalized and free of specific references
-* Lowercasing: To ensure uniformity, all text has been converted to lowercase.
-* Tokenization: Break down the tweets into individual words or tokens. This step helps simplify the text and prepares it for further processing.
-* Stopword Removal: Remove common words (like "and", "is", and "the") that do not add significant meaning in sentiment analysis.
-* Lemmatization: Reduced words to their root form. For example, "running" becomes "run". This helps in consolidating the text and treating words with similar meanings.
+There are various procedures involved in preprocessing tweets for sentiment analysis. Any special characters, digits, URLs, and Twitter identities were first removed. Second, to maintain uniformity, all text is changed to lowercase. The tweets are then tokenized, which involves separating them into separate words or tokens. The tokens are then lemmatized to return them to their original forms.
 
 ## 3. Feature Extraction:
 Feature extraction was used to vectorize data by converting preprocessed text into numerical data using TF-IDF.
