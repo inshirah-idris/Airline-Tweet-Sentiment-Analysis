@@ -29,9 +29,11 @@ Preprocessing of 14485 tweets out of 14640 was successful. There were 5415 posit
 
 <img src="./images/Pie_Chart.png">
 
+<img src="./images/stack_chart.png">
+
 Numerous classification models were used to train the sentiment analysis model, including Nave Base, logistic regression, SVM, neural networks, and Random Forest. Random Forest, whose accuracy was 98%, had the highest level of precision.
 
-<img src="./images/Pie_Chart.png">
+<img src="./images/Classifiers_Performance.png">
 
 With a low number of false positives, the confusion matrix for Random Forest showed significant accuracy in sentiment categorization.
 
