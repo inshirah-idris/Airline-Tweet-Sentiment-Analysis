@@ -25,9 +25,15 @@ Feature extraction was used to vectorize data by converting preprocessed text in
 For sentiment analysis, many classification models were used, including Nave Base, logistic regression, SVM, neural networks, and Random Forest. Then, to analyze the model, we used accuracy to determine how well the classifier performs in predicting the sentiments of the tweets.
 
 ## Results:
-Share some insights, metrics, or findings from the analysis. This can be in terms of graphs, tables, or text.
+Preprocessing of 14485 tweets out of 14640 was successful. There were 5415 positive, 3632 negative, and 5438 neutral tweets total, which were divided into three groups.
 
 <img src="./images/Pie_Chart.png">
+
+Numerous classification models were used to train the sentiment analysis model, including Nave Base, logistic regression, SVM, neural networks, and Random Forest. Random Forest, whose accuracy was 98%, had the highest level of precision.
+
+<img src="./images/Pie_Chart.png">
+
+With a low number of false positives, the confusion matrix for Random Forest showed significant accuracy in sentiment categorization.
 
 ## Technologies Used:
 List the languages, libraries, and tools used in the project.
