@@ -22,11 +22,7 @@ There are various procedures involved in preprocessing tweets for sentiment anal
 Feature extraction was used to vectorize data by converting preprocessed text into numerical data using TF-IDF.
 
 ## 4. Classification:
-Model Selection: Choose suitable classification models for sentiment analysis. For instance, logistic regression, SVM, or neural networks
-
-Training and Testing: Split the dataset into a training set to train the model and a test set to evaluate its performance.
-
-Evaluation: Used metrics like accuracy, precision, recall, and F1-score to measure how well the classifier performs in determining the sentiments of the tweets.
+For sentiment analysis, many classification models were used, including Nave Base, logistic regression, SVM, neural networks, and Random Forest. Then, to analyze the model, we used accuracy to determine how well the classifier performs in predicting the sentiments of the tweets.
 
 ## Results:
 Share some insights, metrics, or findings from the analysis. This can be in terms of graphs, tables, or text.
