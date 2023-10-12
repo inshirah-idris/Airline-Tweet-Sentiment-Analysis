@@ -31,7 +31,7 @@ The sentiment analysis project was structured according to the following key pha
 
 <img src="./images/stack_chart.png" width="40%" height="40%">
 
-- Numerous classification models were used to train the sentiment analysis model, including Nave Base, logistic regression, SVM, neural networks, and Random Forest. Random Forest, whose accuracy was 98%, had the highest level of precision.
+- Numerous classification models were used to train the sentiment analysis model, including Nave Base, logistic regression, SVM, neural networks, and Random Forest. Random Forest, whose accuracy was 78.8%, had the highest level of precision.
 
 <img src="./images/Classifiers_Performance.png" width="40%" height="40%">
 
