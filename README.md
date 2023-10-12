@@ -27,9 +27,11 @@ For sentiment analysis, many classification models were used, including Nave Bas
 ## Results:
 Out of the 14640 tweets that were preprocessed, 14485 were successfully cleaned, tokenized, and normalized for further analysis.
 
-According to the analysis, 5438 tweets expressed neutral customer sentiment, whereas 5415 expressed positive sentiment and 3632 expressed negative sentiment.
+According to the analysis, 5438 tweets expressed natural customer sentiment, whereas 5415 expressed positive sentiment and 3632 expressed negative sentiment.
 
 <img src="./images/Pie_Chart.png" width="40%" height="40%"> 
+
+Furthermore, the findings showed that XY company had the highest positive sentiment, whereas YX company had the most negative sentiment.
 
 <img src="./images/stack_chart.png" width="40%" height="40%">
 
