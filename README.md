@@ -41,5 +41,5 @@ Numerous classification models were used to train the sentiment analysis model, 
 
 ## Contributors
 
-- **Inshirah Idris**: [inshirah-idris](https://github.com/inshirah-idris) | [LinkedIn](LinkedIn_Link)
-- **Jane Smith**: [Taqwa Ahmed](https://github.com/settings/profile) | [Taqwa Ahmed](https://www.linkedin.com/in/taqwa-ahmed-681a2646/)
+- **Inshirah Idris**: [inshirah-idris](https://github.com/inshirah-idris) | [inshirah.idris](https://www.linkedin.com/in/inshirah-idris-bb937362/)
+- **Jane Smith**: [Taqwa Ahmed](https://github.com/taqwa315) | [Taqwa Ahmed](https://www.linkedin.com/in/taqwa-ahmed-681a2646/)
