@@ -39,8 +39,7 @@ Numerous classification models were used to train the sentiment analysis model, 
 
 <img src="./images/Classifiers_Performance.png" width="40%" height="40%">
 
-### Technologies Used:
-List the languages, libraries, and tools used in the project.
+## Contributors
 
-### Contact:
-Your contact information or a link to your GitHub profile are for those who might have questions or collaboration ideas.
+- **Inshirah Idris**: [inshirah-idris](https://github.com/inshirah-idris) | [LinkedIn](LinkedIn_Link)
+- **Jane Smith**: [Taqwa Ahmed](https://github.com/settings/profile) | [Taqwa Ahmed](https://www.linkedin.com/in/taqwa-ahmed-681a2646/)
