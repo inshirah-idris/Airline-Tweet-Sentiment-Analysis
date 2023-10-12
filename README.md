@@ -12,28 +12,30 @@ Link: [Twitter US Airline Sentiment on Kaggle](https://www.kaggle.com/datasets/c
 ## Methodology
 The sentiment analysis project was structured according to the following key phases:
 
-### 1. Labeling: 
+## 1. Labeling: 
 Although the dataset was originally annotated with sentiment labels, we decided to follow our own labeling for a more comprehensive analysis. Labeling was performed using TextBlob Data Labeling.
 
-### 2. Preprocessing:
+## 2. Preprocessing:
 There are various procedures involved in preprocessing tweets for sentiment analysis. Any special characters, digits, URLs, and Twitter identities were first removed. Second, to maintain uniformity, all text is changed to lowercase. The tweets are then tokenized, which involves separating them into separate words or tokens. The tokens are then lemmatized to return them to their original forms.
 
-### 3. Feature Extraction:
+## 3. Feature Extraction:
 Feature extraction was used to vectorize data by converting preprocessed text into numerical data using TF-IDF.
 
-### 4. Classification:
+## 4. Classification:
 For sentiment analysis, many classification models were used, including Nave Base, logistic regression, SVM, neural networks, and Random Forest. Then, to analyze the model, we used accuracy to determine how well the classifier performs in predicting the sentiments of the tweets.
 
-### Results:
-Preprocessing of 14485 tweets out of 14640 was successful. There were 5415 positive, 3632 negative, and 5438 neutral tweets total, which were divided into three groups.
+## Results:
+Out of the 14640 tweets that were preprocessed, 14485 were successfully cleaned, tokenized, and normalized for further analysis.
 
-<img src="./images/Pie_Chart.png"> <img src="./images/stack_chart.png">
+According to the analysis, 5438 tweets expressed neutral customer sentiment, whereas 5415 expressed positive sentiment and 3632 expressed negative sentiment.
+
+<img src="./images/Pie_Chart.png"> 
+
+<img src="./images/stack_chart.png">
 
 Numerous classification models were used to train the sentiment analysis model, including Nave Base, logistic regression, SVM, neural networks, and Random Forest. Random Forest, whose accuracy was 98%, had the highest level of precision.
 
 <img src="./images/Classifiers_Performance.png">
-
-With a low number of false positives, the confusion matrix for Random Forest showed significant accuracy in sentiment categorization.
 
 ### Technologies Used:
 List the languages, libraries, and tools used in the project.
