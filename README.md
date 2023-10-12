@@ -29,13 +29,13 @@ Out of the 14640 tweets that were preprocessed, 14485 were successfully cleaned,
 
 According to the analysis, 5438 tweets expressed neutral customer sentiment, whereas 5415 expressed positive sentiment and 3632 expressed negative sentiment.
 
-<img src="./images/Pie_Chart.png"> 
+<img src="./images/Pie_Chart.png" width="40%" height="40%"> 
 
-<img src="./images/stack_chart.png">
+<img src="./images/stack_chart.png" width="40%" height="40%">
 
 Numerous classification models were used to train the sentiment analysis model, including Nave Base, logistic regression, SVM, neural networks, and Random Forest. Random Forest, whose accuracy was 98%, had the highest level of precision.
 
-<img src="./images/Classifiers_Performance.png">
+<img src="./images/Classifiers_Performance.png" width="40%" height="40%">
 
 ### Technologies Used:
 List the languages, libraries, and tools used in the project.
