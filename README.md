@@ -1,7 +1,7 @@
 ## Airline-Tweet-Sentiment-Analysis
 A comprehensive analysis of public airline sentiment based on the 'Twitter US Airline Sentiment' dataset that is available in Kaggle. The project involves four main stages: tweet preprocessing, sentiment labeling, feature extraction, and sentiment classification.
 
-### Install Necessary Libraries
+## Install Necessary Libraries
 ! pip install emoji
 
 ## Dataset:
@@ -12,7 +12,7 @@ Link: [Twitter US Airline Sentiment on Kaggle](https://www.kaggle.com/datasets/c
 ## Methodology
 The sentiment analysis project was structured according to the following key phases:
 
-#### 1. Labeling:
+### 1. Labeling: 
 Although the dataset was originally annotated with sentiment labels, we decided to follow our own labeling for a more comprehensive analysis. Labeling was performed using TextBlob Data Labeling.
 
 ### 2. Preprocessing:
@@ -27,9 +27,7 @@ For sentiment analysis, many classification models were used, including Nave Bas
 ### Results:
 Preprocessing of 14485 tweets out of 14640 was successful. There were 5415 positive, 3632 negative, and 5438 neutral tweets total, which were divided into three groups.
 
-<img src="./images/Pie_Chart.png">
-
-<img src="./images/stack_chart.png">
+<img src="./images/Pie_Chart.png"> <img src="./images/stack_chart.png">
 
 Numerous classification models were used to train the sentiment analysis model, including Nave Base, logistic regression, SVM, neural networks, and Random Forest. Random Forest, whose accuracy was 98%, had the highest level of precision.
 
