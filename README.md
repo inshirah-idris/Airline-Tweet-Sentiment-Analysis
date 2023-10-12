@@ -27,7 +27,7 @@ The sentiment analysis project was structured according to the following key pha
 
 <img src="./images/Pie_Chart.png" width="40%" height="40%"> 
 
-- Furthermore, the findings showed that XY company had the highest positive sentiment, whereas YX company had the most negative sentiment.
+- Furthermore, the results revealed that the United Company had the highest number of tweets, which resulted in the highest number of positive and negative sentiments.
 
 <img src="./images/stack_chart.png" width="40%" height="40%">
 
