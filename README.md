@@ -43,4 +43,4 @@ Numerous classification models were used to train the sentiment analysis model, 
 List the languages, libraries, and tools used in the project.
 
 ### Contact:
-Your contact info or a link to your GitHub profile for those who might have questions or collaboration ideas.
+Your contact information or a link to your GitHub profile are for those who might have questions or collaboration ideas.
